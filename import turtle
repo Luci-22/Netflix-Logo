@@ -1,0 +1,85 @@
+import turtle
+t = turtle.turtle()
+t.speed(10)
+turtle.bgcolor("white")
+t.color("white")
+t.up()
+t.goto(-80,50)
+t.down()
+t.fillcolor("black")
+t.begin_fill()
+t.forward(200)
+t.setheading(270)
+s = 360
+for i in range(9):
+    s = s -10
+    t.setheading(s)
+    t.foward(10)
+
+
+t.foward(180)
+s = 270
+for i in range(9):
+    s = s - 10
+    t.setheading(s)
+    t.foward(10)
+
+t.foward(200)
+s = 180
+for i in range(9):
+    s = s - 10
+    t.setheading(s)
+    t.foward(10)
+
+t.foward(180)
+s = 90
+for i in range(9):
+    s = s - 10
+    t.setheading(s)
+    t.foward(10)
+t.foward(30)
+t.end_fill()
+t.up()
+t.color("black")
+t.setheading(270)
+t.foward(240)
+t.setheading(0)
+t.down()
+t.color("red")
+t.fillcolor("#E50914")
+t.begin_fill()
+t.foward(30)
+t.setheading(90)
+t.foward(100)
+t.setheading(180)
+t.foward(30)
+t.setheading(270)
+t.foward(180)
+t.end_fill()
+t.setheading(0)
+t.up()
+t.foward(75)
+t.down()
+t.color("red")
+t.fillcolor("#E50914")
+t.begin_fill()
+t.foward(30)
+t.setheading(90)
+t.foward(30)
+t.setheading(180)
+t.foward(30)
+t.setheading(270)
+t.foward(180)
+t.end_fill()
+t.color("red")
+t.fillcolor("red")
+t.begin_fill()
+t.setheading(113)
+t.foward(195)
+t.setheading(0)
+t.foward(31)
+t.setheading(293)
+t.foward(196)
+t.end_fill()
+t.hideturtle()
+turtle.done()
